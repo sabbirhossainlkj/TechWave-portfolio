@@ -20,27 +20,28 @@
 <body>
     <!-- header section -->
     <header>
-        <nav class=" bg-[#1A0B2E] border-b border-[#FFFFFF]">
+        <nav class=" bg-[#1A0B2E]">
             <div class=" max-w-[1200px]  py-[30px] flex justify-between items-center mx-auto">
-                <h3 class="font-bold text-3xl text-[#FFFFFF]">TechWave</h3>
+                <h3 class="font-bold text-3xl text-[#FFFFFF]">Tech<span class="text-orange-400">Wave</span></h3>
                 <ul class="flex gap-8 text-[#FFFFFF] text-base font-medium">
                     <li>About</li>
                     <li>Episodes</li>
                     <li>Host</li>
                 </ul>
-                <button class=" bg-amber-400 text-[#FFFFFF] text-base font-semibold
+                <button class=" bg-conic/decreasing from-violet-700 via-lime-300
+                 to-violet-700 text-base text-[#FFFFFF] font-semibold
                  py-2 px-5 rounded-3xl">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </nav>
         <!-- hero section -->
         <div class=" h-[760px] py-[101px] bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-cover bg-center">
             <div class=" max-w-[550px] mx-auto text-center flex items-center flex-col">
-                <img class="mb-10" src="./assets/hero-circle.png" alt="">
+                <img class="mb-10 animate-spin" src="./assets/hero-circle.png" alt="">
                 <h2 class="text-[60px] font-extrabold text-[#FFFFFF]">TechWave</h2>
                 <p class="text-base text-[#FFFFFF] mb-6">Your daily dose of tech insights, productivity hacks, and
                     personal growth</p>
                 <div class=" gap-3">
-                    <button class=" text-[#FFFFFF] font-semibold text-base py-2 px-7 bg-amber-400 rounded-3xl"><i
+                    <button class=" text-[#FFFFFF] font-semibold text-base py-2 px-7 bg-conic/decreasing from-violet-700 via-lime-300 to-violet-700 rounded-3xl"><i
                             class="fa-brands fa-spotify"></i> Listen on Spotify</button>
                     <button
                         class="border border-[#00FF88] text-base font-semibold text-[#00FF88] py-2 px-5 rounded-3xl"> <i
@@ -63,7 +64,6 @@
 
                     Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
             </div>
-            <hr>
             <div class="max-w-[1200px] mx-auto grid grid-cols-4 gap-20 text-center mt-[80px]">
                 <div>
                     <h2 class="text-[#00FF88] font-black text-5xl mb-4">150K+</h2>
@@ -129,7 +129,7 @@
         </section>
         <!-- Featured Episodes & Meet the Host -->
         <section class=" py-[120px] bg-[#1A0B2E]">
-             <h2 class="text-5xl text-[#FFFFFF] font-bold text-center mb-10">Featured Episodes</h2>
+            <h2 class="text-5xl text-[#FFFFFF] font-bold text-center mb-10">Featured Episodes</h2>
             <div class=" max-w-[1200px] mx-auto grid grid-cols-3 gap-x-[30px] gap-y-[40px]">
                 <div class=" rounded-2xl bg-[#250D44]">
                     <iframe class="aspect-video rounded-xl" width="377" height="300"
@@ -139,25 +139,36 @@
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="p-6">
                         <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
-                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is transforming our daily routines and what to expect
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
                             in the next decade.</p>
                         <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 42 min</p>
                     </div>
                 </div>
                 <div class=" rounded-2xl bg-[#250D44]">
-                    <iframe class="aspect-video rounded-xl" width="377" height="300" src="https://www.youtube.com/embed/gguAmbBNhJQ?si=kbEnS-ngHLsmmvA3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="aspect-video rounded-xl" width="377" height="300"
+                        src="https://www.youtube.com/embed/gguAmbBNhJQ?si=kbEnS-ngHLsmmvA3" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="p-6">
                         <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
-                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is transforming our daily routines and what to expect
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
                             in the next decade.</p>
                         <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 35 min</p>
                     </div>
                 </div>
                 <div class="rounded-2xl bg-[#250D44]">
-                    <iframe class="aspect-video rounded-xl"  width="377" height="300" src="https://www.youtube.com/embed/tBbdSzwxqyY?si=MyramteYz-ufZG5N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="aspect-video rounded-xl" width="377" height="300"
+                        src="https://www.youtube.com/embed/tBbdSzwxqyY?si=MyramteYz-ufZG5N" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="p-6">
                         <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
-                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is transforming our daily routines and what to expect
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
                             in the next decade.</p>
                         <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 51 min</p>
                     </div>
@@ -170,25 +181,36 @@
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="p-6">
                         <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
-                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is transforming our daily routines and what to expect
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
                             in the next decade.</p>
                         <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 42 min</p>
                     </div>
                 </div>
                 <div class="rounded-2xl bg-[#250D44]">
-                    <iframe class="aspect-video rounded-xl" width="377" height="300" src="https://www.youtube.com/embed/gguAmbBNhJQ?si=kbEnS-ngHLsmmvA3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="aspect-video rounded-xl" width="377" height="300"
+                        src="https://www.youtube.com/embed/gguAmbBNhJQ?si=kbEnS-ngHLsmmvA3" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="p-6">
                         <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
-                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is transforming our daily routines and what to expect
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
                             in the next decade.</p>
                         <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 35 min</p>
                     </div>
                 </div>
                 <div class="rounded-2xl bg-[#250D44]">
-                    <iframe class="aspect-video rounded-xl"  width="377" height="300" src="https://www.youtube.com/embed/tBbdSzwxqyY?si=MyramteYz-ufZG5N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="aspect-video rounded-xl" width="377" height="300"
+                        src="https://www.youtube.com/embed/tBbdSzwxqyY?si=MyramteYz-ufZG5N" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="p-6">
                         <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
-                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is transforming our daily routines and what to expect
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
                             in the next decade.</p>
                         <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 51 min</p>
                     </div>
@@ -197,25 +219,41 @@
 
             <div class=" mt-[120px] max-w-[1200px] mx-auto">
                 <h2 class="text-center font-bold text-5xl text-[#FFFFFF] mb-10">Meet the Host</h2>
-                <div class=" w-[1200px] bg-[#351165] grid grid-cols-2 p-10 gap-6 rounded-4xl">
+                <div class=" w-[1200px] bg-[#351165] flex justify-between p-10 gap-6 rounded-4xl">
                     <img src="./assets/host.png" alt="">
-                   <div>
-                    <h3 class="text-[32px] text-[#FFFFFF] font-bold mb-4">Alex Kumar</h3>
-                    <p class="text-base text-[#FFFFFF] leading-6 mb-4">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
-                    <ul class=" w-[195px] gap-2 grid grid-cols-4">
-                        <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full" src="./assets/linkedin.png" alt=""></li>
-                        <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full" src="./assets/x.png" alt=""></li>
-                        <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full" src="./assets/instagram.png" alt=""></li>
-                        <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full" src="./assets/youtube.png" alt=""></li>
-                    </ul>
-                   </div>
+                    <div>
+                        <h3 class="text-[32px] text-[#FFFFFF] font-bold mb-4">Alex Kumar</h3>
+                        <p class="text-base text-[#FFFFFF] leading-6 mb-4">Tech entrepreneur, productivity expert, and
+                            lifelong learner. Alex has been in the tech industry for over 10 years, working with
+                            startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry
+                            leaders and practical advice for anyone looking to grow in tech.</p>
+                        <ul class=" w-[195px] gap-2 grid grid-cols-4">
+                            <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full"
+                                    src="./assets/linkedin.png" alt=""></li>
+                            <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full" src="./assets/x.png"
+                                    alt=""></li>
+                            <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full"
+                                    src="./assets/instagram.png" alt=""></li>
+                            <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full"
+                                    src="./assets/youtube.png" alt=""></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <!-- footer section -->
-    <footer>
-
+    <footer class=" h-[412px] bg-[url('./assets/footer-bg.png')] bg-cover bg-center bg-no-repeat p-[120px]">
+        <div class="max-w-[1200px] mx-auto text-center">
+            <h2 class="text-5xl text-[#FFFFFF] font-bold mb-[32px]">TechWave</h2>
+            <ul class="grid grid-cols-4 gap-10 mb-8 w-[500px] text-center mx-auto text-base font-medium text-[#FFFFFF]">
+                <li><i class="fa-brands fa-spotify"></i> Spotify</li>
+                <li><i class="fa-solid fa-podcast"></i> Apple Podcasts</li>
+                <li><i class="fa-brands fa-square-youtube"></i> YouTube</li>
+                <li><i class="fa-brands fa-square-twitter"></i> Twitter</li>
+            </ul>
+            <p class="text-base text-[#FAFAFA]">© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 
