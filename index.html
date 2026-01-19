@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>assainment 02</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <nav class="max-[575px]:p-3 bg-[#1A0B2E]">
+            <div class=" max-w-[1200px] py-[30px] flex justify-between items-center mx-auto">
+                <h3 class="font-bold text-3xl text-[#FFFFFF]">Tech<span class="text-orange-400">Wave</span></h3>
+                <ul class=" max-sm:hidden flex gap-8 text-[#FFFFFF] text-base font-medium">
+                    <li>About</li>
+                    <li>Episodes</li>
+                    <li>Host</li>
+                </ul>
+                <button class="max-sm:hidden bg-conic/decreasing from-violet-700 via-lime-300
+                 to-violet-700 text-base text-[#FFFFFF] font-semibold
+                 py-2 px-5 rounded-3xl">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+                <button class="text-white text-3xl md:hidden"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+        <!-- hero section -->
+        <div
+            class=" max-[575px]:h-[460px] max-[575px]:py-[50px]  py-[101px] bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-cover bg-center">
+            <div class=" max-w-[550px] mx-auto text-center flex items-center flex-col">
+                <img class="mb-10 w-104 h-104  max-[575px]:w-60 max-[575px]:h-60  animate-spin"
+                    src="./assets/Group 14.png" alt="">
+                <h2 class="lg:text-[60px] max-[575px]:text-[30px] font-extrabold text-[#FFFFFF]">TechWave</h2>
+                <p class="text-base text-[#FFFFFF] mb-6">Your daily dose of tech insights, productivity hacks, and
+                    personal growth</p>
+                <div class=" gap-3">
+                    <button
+                        class=" text-[#FFFFFF] font-semibold text-base py-2 px-7 bg-conic/decreasing from-violet-700 via-lime-300 to-violet-700 rounded-3xl"><i
+                            class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+                    <button
+                        class="border border-[#00FF88] text-base font-semibold text-[#00FF88] py-2 px-5 rounded-3xl"> <i
+                            class="fa-regular fa-envelope"></i> Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main section -->
+    <main>
+        <!-- About the Podcast -->
+        <section class="max-[575px]:p-3 bg-[#1A0B2E] pt-[50px] max-[575px]:pb-[50px] pb-[120px]">
+            <div class=" max-w-[1200px] max-[575px]:w-[100%]  mx-auto mb-[80px] text-center">
+                <h2 class="text-5xl max-[575px]:text-[30px] max-[575px]:mt-[30px] text-[#FFFFFF] font-bold mb-4">About the Podcast</h2>
+                <p class="text-base leading-5 text-[#FFFFFF]">TechWave is your go-to podcast for staying ahead in the
+                    fast-paced world of technology. <br>
+                    We break down complex topics into digestible insights, explore productivity strategies that actually
+                    work,<br>
+                    and share stories of personal growth from industry leaders. <br> <br>
+
+                    Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            </div>
+            <div class="max-w-[1200px] mx-auto max-[575px]:grid-cols-2  grid grid-cols-4 gap-20 text-center mt-[80px]">
+                <div>
+                    <h2 class="text-[#00FF88] font-black text-5xl mb-4">150K+</h2>
+                    <p class="text-base text-[#FFFFFF]">Monthly Listeners</p>
+                </div>
+                <div>
+                    <h2 class="text-[#00FF88] font-black text-5xl mb-4">200+</h2>
+                    <p class="text-base text-[#FFFFFF]">Episodes Published</p>
+                </div>
+                <div>
+                    <h2 class="text-[#00FF88] font-black text-5xl mb-4">4.9★</h2>
+                    <p class="text-base text-[#FFFFFF]">Average Rating</p>
+                </div>
+                <div>
+                    <h2 class="text-[#00FF88] font-black text-5xl mb-4">50+</h2>
+                    <p class="text-base text-[#FFFFFF]">Industry Experts</p>
+                </div>
+            </div>
+        </section>
+        <!-- Why Choose TechWave -->
+        <section class="max-[575px]:p-3 bg-[#230E3D] max-[575px]:py-[50px] py-[120px]">
+            <h3 class=" text-center max-[575px]:text-4xl text-5xl font-bold text-[#FFFFFF] mb-10">Why Choose TechWave
+            </h3>
+            <div
+                class=" max-w-[1200px] mx-auto max-[575px]:place-content-center max-[575px]:grid-cols-1 max-[575px]:grid-row-1 max-[575px]:items-center  grid grid-cols-3 grid-rows-3 gap-[30px]">
+                <div class="row-span-2 rounded-[40px] py-[120px] px-10 bg-[#351165]">
+                    <img class="mb-4" src="./assets/headphone.png" alt="">
+                    <h5 class="text-2xl text-[#FFFFFF] font-bold mb-4">Premium Audio Quality</h5>
+                    <p class="text-base text-[#FFFFFF] leading-7">Experience crystal-clear sound with professional-grade
+                        recording equipment and expert audio
+                        engineering. Every episode is mastered for optimal listening across all devices and platforms.
+                    </p>
+                </div>
+                <div class="col-span-2 rounded-[40px] p-10  bg-[#351165]">
+                    <img class="mb-4" src="./assets/device.png" alt="">
+                    <h5 class="text-2xl text-[#FFFFFF] font-bold mb-4">Mobile Friendly</h5>
+                    <p class="text-base text-[#FFFFFF] leading-6">Listen on the go with seamless mobile experience and
+                        offline downloads.</p>
+                </div>
+                <div class="col-span-2 rounded-[40px] p-10  bg-[#351165]">
+                    <img class="mb-4" src="./assets/location.png" alt="">
+                    <h5 class="text-2xl text-[#FFFFFF] font-bold mb-4">Global Community</h5>
+                    <p class="text-base text-[#FFFFFF] leading-6">Connect with tech enthusiasts from over 120 countries
+                        worldwide.</p>
+                </div>
+                <div class="col-span-2 rounded-[40px] p-10  bg-[#351165]">
+                    <img class="mb-4" src="./assets/Icon (Stroke).png" alt="">
+                    <h5 class="text-2xl text-[#FFFFFF] font-bold mb-4">Exclusive Interviews</h5>
+                    <p class="text-base text-[#FFFFFF] leading-6">Get unprecedented access to industry titans, startup
+                        founders, and tech visionaries. Our host secures
+                        exclusive conversations you won't find anywhere else, diving deep into their journeys, failures,
+                        and
+                        success strategies.</p>
+                </div>
+                <div class="rounded-[40px] bg-[#351165] p-10">
+                    <img class="mb-4" src="./assets/resource.png" alt="">
+                    <h5 class="text-2xl text-[#FFFFFF] font-bold mb-4">Rich Resources</h5>
+                    <p class="text-base text-[#FFFFFF] leading-6">Access show notes, transcripts, and additional
+                        learning materials for every episode.</p>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Featured Episodes & Meet the Host -->
+        <section class="max-[575px]:p-3 max-[575px]:py-[50px] py-[120px] bg-[#1A0B2E]">
+            <h2 class="text-5xl text-[#FFFFFF] font-bold text-center mb-10">Featured Episodes</h2>
+            <div class=" max-w-[1200px] mx-auto max-[575px]:grid-cols-1 grid grid-cols-3 gap-x-[30px] gap-y-[40px]">
+                <div class=" rounded-2xl bg-[#250D44]">
+                    <iframe class="aspect-video rounded-xl" width="380" height="300"
+                        src="https://www.youtube.com/embed/SBNtPoHmYxw?si=TrfOAXR3ZeVe3Xm9" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="p-6">
+                        <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
+                            in the next decade.</p>
+                        <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 42 min</p>
+                    </div>
+                </div>
+                <div class=" rounded-2xl bg-[#250D44]">
+                    <iframe class="aspect-video rounded-xl" width="380" height="300"
+                        src="https://www.youtube.com/embed/gguAmbBNhJQ?si=kbEnS-ngHLsmmvA3" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="p-6">
+                        <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
+                            in the next decade.</p>
+                        <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 35 min</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-[#250D44]">
+                    <iframe class="aspect-video rounded-xl" width="380" height="300"
+                        src="https://www.youtube.com/embed/tBbdSzwxqyY?si=MyramteYz-ufZG5N" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="p-6">
+                        <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
+                            in the next decade.</p>
+                        <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 51 min</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-[#250D44]">
+                    <iframe class="aspect-video rounded-xl" width="380" height="300"
+                        src="https://www.youtube.com/embed/SBNtPoHmYxw?si=TrfOAXR3ZeVe3Xm9" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="p-6">
+                        <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
+                            in the next decade.</p>
+                        <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 42 min</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-[#250D44]">
+                    <iframe class="aspect-video rounded-xl" width="380" height="300"
+                        src="https://www.youtube.com/embed/gguAmbBNhJQ?si=kbEnS-ngHLsmmvA3" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="p-6">
+                        <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
+                            in the next decade.</p>
+                        <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 35 min</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-[#250D44]">
+                    <iframe class="aspect-video rounded-xl" width="380" height="300"
+                        src="https://www.youtube.com/embed/tBbdSzwxqyY?si=MyramteYz-ufZG5N" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="p-6">
+                        <h4 class="text-2xl font-bold text-[#FFFFFF] mb-3">The Future of AI in Everyday Life</h4>
+                        <p class="text-base leading-6 text-[#FFFFFF] mb-3">Exploring how artificial intelligence is
+                            transforming our daily routines and what to expect
+                            in the next decade.</p>
+                        <p class="text-[#00FF88] text-base font-semibold"><i class="fa-regular fa-clock"></i> 51 min</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" mt-[120px] max-w-[1200px] mx-auto">
+                <h2 class="text-center font-bold text-5xl text-[#FFFFFF] mb-10">Meet the Host</h2>
+                <div
+                    class=" w-[1200px] max-[575px]:w-[100%] bg-[#351165] max-[575px]:flex-col max-[575px]:items-center max-[575px]:justify-center max-[575px]:text-center  flex justify-between p-10 gap-6 rounded-4xl">
+                    <img src="./assets/host.png" alt="">
+                    <div>
+                        <h3 class="text-[32px] text-[#FFFFFF] font-bold mb-4">Alex Kumar</h3>
+                        <p class="text-base text-[#FFFFFF] leading-6 mb-4">Tech entrepreneur, productivity expert, and
+                            lifelong learner. Alex has been in the tech industry for over 10 years, working with
+                            startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry
+                            leaders and practical advice for anyone looking to grow in tech.</p>
+                        <ul class=" w-[195px] max-[575px]:ml-[80px] gap-2 grid grid-cols-4">
+                            <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full"
+                                    src="./assets/linkedin.png" alt=""></li>
+                            <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full" src="./assets/x.png"
+                                    alt=""></li>
+                            <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full"
+                                    src="./assets/instagram.png" alt=""></li>
+                            <li><img class="w-10 h-10 border-2 border-purple-600 p-2 rounded-full"
+                                    src="./assets/youtube.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer
+        class="max-[575px]:p-3 h-[412px] bg-[url('./assets/footer-bg.png')] bg-cover bg-center bg-no-repeat py-[120px]  px-[120px] max-[575px]:px-4">
+        <div class=" max-w-[1200px] mx-auto text-center">
+            <h2 class="text-5xl text-[#FFFFFF] font-bold mb-[32px]">Tech<span class="text-orange-400">Wave</span></h2>
+            <ul
+                class=" max-[575px]:grid-cols-2 grid grid-cols-4 gap-10 mb-8 w-[500px] max-[575px]:w-100 text-center mx-auto text-base font-medium text-[#FFFFFF]">
+                <li><i class="fa-brands fa-spotify"></i> Spotify</li>
+                <li><i class="fa-solid fa-podcast"></i> Apple Podcasts</li>
+                <li><i class="fa-brands fa-square-youtube"></i> YouTube</li>
+                <li><i class="fa-brands fa-square-twitter"></i> Twitter</li>
+            </ul>
+            <p class="text-base text-[#FAFAFA]">© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
